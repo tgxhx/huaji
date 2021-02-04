@@ -1,18 +1,18 @@
-# 合成大西瓜
+# 合成大滑稽
 
 **声明，本项目仅帮助大家学习技术及娱乐，切勿将修改后的网站大规模传播及商用，以避免侵权！**
 
-> 最简单的魔改发布『 合成大西瓜 』，配套改图工具，不用改代码，修改配置即可！
+> 最简单的魔改发布『 合成大滑稽 』，配套改图工具，不用改代码，修改配置即可！
 >
 > 有帮助的话，求个大大的 star，有疑问请联系微信：liyupi66
-> 
+>
 > 作者编程技术公众号[『 程序员鱼皮 』](https://mp.weixin.qq.com/s/H9VR1MWn-9bKSC_1l_MkJw)，欢迎关注 ❤️
 >
 > 遇到问题可以先阅读本文档最后[ 问题及解决 ](#问题及解决)
 
-详细教程：[魔改和上线你的合成大西瓜，最全教程！](https://mp.weixin.qq.com/s/H9VR1MWn-9bKSC_1l_MkJw)
+详细教程：[魔改和上线你的合成大滑稽，最全教程！](https://mp.weixin.qq.com/s/H9VR1MWn-9bKSC_1l_MkJw)
 
-视频教程：[全网最贴心的魔改合成大西瓜教程，从修改到发布！](https://www.bilibili.com/video/BV1Vy4y1n7KW/)
+视频教程：[全网最贴心的魔改合成大滑稽教程，从修改到发布！](https://www.bilibili.com/video/BV1Vy4y1n7KW/)
 
 未修改版在线玩：[https://daxigua.liyupi.com](https://daxigua.liyupi.com)
 
@@ -36,7 +36,6 @@
 
 - [问题及解决](#问题及解决)
 
-
 ### 本地启动
 
 > 提供两种本地启动方式，serve 和 Docker，小白建议使用第一种。
@@ -45,16 +44,16 @@
 
 1. 安装 serve 工具：
 
-    ```bash
-    npm i -g serve
-    ```
+   ```bash
+   npm i -g serve
+   ```
 
 2. 进入 daxigua 目录，运行 serve：
 
-    ```bash
-    serve
-    ```
-   
+   ```bash
+   serve
+   ```
+
 3. 打开浏览器访问 localhost:5000 即可！
 
 #### 已安装 Docker
@@ -62,16 +61,16 @@
 > 感谢 [buchenglei](https://github.com/buchenglei) 的贡献
 
 1. 构建镜像
-    
-    ```bash
-    docker build -t daxigua-server .
-    ```
+
+   ```bash
+   docker build -t daxigua-server .
+   ```
 
 2. 启动容器
 
-    ```bash
-    docker run -d --name play-daxigua -p5000:5000 daxigua-server
-    ```
+   ```bash
+   docker run -d --name play-daxigua -p5000:5000 daxigua-server
+   ```
 
 ### 快速魔改
 
@@ -107,7 +106,6 @@
 
 15. 点击右上方图标更换水果: 改 extraSettings.js 文件（暂未支持）
 
-
 ### 上线发布
 
 > 提供了多种上线发布方式，腾讯云一键部署、Vercel、腾讯云静态网站托管、GitHub Pages 等，小白建议使用 Vercel。
@@ -121,7 +119,6 @@
 > 如果要替换为一键部署自己的仓库，要先 fork 我的仓库，本地修改后再提交到自己 fork 的仓库，最后把一键部署按钮仓库地址改为自己的仓库即可！
 
 [![](https://main.qcloudimg.com/raw/67f5a389f1ac6f3b4d04c7256438e44f.svg)](https://console.cloud.tencent.com/tcb/env/index?action=CreateAndDeployCloudBaseProject&appUrl=https://github.com/liyupi/daxigua&branch=master)
-
 
 #### Vercel
 
@@ -152,12 +149,11 @@ vercel --prod
 
 地址：https://cloud.tencent.com/product/wh
 
-可以参照这篇文章的内容尝试发布，[魔改和上线你的合成大西瓜，最全教程！](https://mp.weixin.qq.com/s/H9VR1MWn-9bKSC_1l_MkJw)
-
+可以参照这篇文章的内容尝试发布，[魔改和上线你的合成大滑稽，最全教程！](https://mp.weixin.qq.com/s/H9VR1MWn-9bKSC_1l_MkJw)
 
 ### 魔改原理
 
-请先阅读：[魔改和上线你的合成大西瓜，最全教程！](https://mp.weixin.qq.com/s/H9VR1MWn-9bKSC_1l_MkJw)
+请先阅读：[魔改和上线你的合成大滑稽，最全教程！](https://mp.weixin.qq.com/s/H9VR1MWn-9bKSC_1l_MkJw)
 
 我给 `project.js` 文件补充了注释，大家可以搜索关键字，如 "改分" 来快速定位，学习修改原理。
 
@@ -165,53 +161,53 @@ vercel --prod
 
 1. 无法安装 serve 或者 Vercel？
 
-    答：如果报找不到 npm，请先安装 npm。
+   答：如果报找不到 npm，请先安装 npm。
 
-    如果安装中卡住，试着按下键盘（可能假死），还不行的话先用 npm 安装 cnpm（国内镜像，比较快）：
-    
-    ```bash
-    npm install cnpm -g --registry=https://registry.npm.taobao.org 
-    ```
-    
-    再用 cnpm 安装： `cnpm i -g serve` 或 `cnpm i -g vercel`
-    
+   如果安装中卡住，试着按下键盘（可能假死），还不行的话先用 npm 安装 cnpm（国内镜像，比较快）：
+
+   ```bash
+   npm install cnpm -g --registry=https://registry.npm.taobao.org
+   ```
+
+   再用 cnpm 安装： `cnpm i -g serve` 或 `cnpm i -g vercel`
+
 2. Vercel 网址被微信拦截怎么办？
-   
-    答：可以把网址复制到浏览器打开，也可以申请一个域名，在 Vercel 和服务提供商配置域名解析。
-    Vercel 基本是海外的服务器，无需备案。
+
+   答：可以把网址复制到浏览器打开，也可以申请一个域名，在 Vercel 和服务提供商配置域名解析。
+   Vercel 基本是海外的服务器，无需备案。
 
 3. 怎么在电脑上浏览网页游戏？
-   
-    答：在浏览器中，按 F12 打开开发者工具，点击像手机一样的图标即可。
-    
+
+   答：在浏览器中，按 F12 打开开发者工具，点击像手机一样的图标即可。
+
 4. 为什么 serve 后，打开网页一片空白？
 
-    答：大概率是你在错误的目录下执行了 serve，请务必在 index.html 所在的文件夹下执行 serve。
+   答：大概率是你在错误的目录下执行了 serve，请务必在 index.html 所在的文件夹下执行 serve。
 
 5. 执行 vercel 命令显示 signUp？
 
-    答：要先去 [Vercel 官网](https://vercel.com/) 注册。
+   答：要先去 [Vercel 官网](https://vercel.com/) 注册。
 
 6. vercel 邮箱验证失败？
 
-    答：先确认邮箱是否正确，如果验证失败，大概率是网络原因，请尝试 4G 等网络。或者在其他浏览器中，打开邮箱，点击验证按钮。
+   答：先确认邮箱是否正确，如果验证失败，大概率是网络原因，请尝试 4G 等网络。或者在其他浏览器中，打开邮箱，点击验证按钮。
 
 7. 怎么使用 vercel 同时上线多个版本？
 
-    答：在输入 vercel 后，选择不和已有项目关联（link），并且使用一个新的项目名（project name）。
+   答：在输入 vercel 后，选择不和已有项目关联（link），并且使用一个新的项目名（project name）。
 
 8. 想在修改文件后重新搞个新版本，但输入 vercel prod 后，直接覆盖了，而没有让我选择是否和现有项目关联（link），怎么办？
-    
-    答：执行 vercel 后，会在本地生成 `.vercel` 隐藏目录保存之前的发布信息，删掉该目录即可。
+
+   答：执行 vercel 后，会在本地生成 `.vercel` 隐藏目录保存之前的发布信息，删掉该目录即可。
 
 9. 导出网址后，我修改了图片，然后游戏中还是原来的图片？
-    
-    答：网址读取的是远程的文件，只改了本地当然没用！再次执行 vercel 或腾讯云命令，把最新文件传上去。
-    
+
+   答：网址读取的是远程的文件，只改了本地当然没用！再次执行 vercel 或腾讯云命令，把最新文件传上去。
+
 10. Mac 能否使用这个教程呢？
-    
+
     答：当然可以！所有命令和 windows 完全一致！只是 cmd 命令行工具改为用 terminal 终端（按 command + 空格，搜索 terminal）
- 
+
 11. 为什么打开网站白屏了？
-    
+
     答：大概率是你修改错误，导致一些文件缺失。。可以试试重新下载代码，再修改，请先确保本地可以运行，再发布！
